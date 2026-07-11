@@ -1,2 +1,5 @@
-# INFORMATICA-GENERAL---SEGUNDO-PARCIAL
-Artes Multimediales - Universidad Nacional de las Artes.
+Nathaly Gabriela Castro Amaya
+
+Segundo Parcial - Informática General
+
+Artes Multimediales - UNA
