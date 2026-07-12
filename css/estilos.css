@@ -159,3 +159,42 @@ img {
 	height: auto;
 	margin: 0.5em auto;
 }
+
+#galeria{
+
+	text-align:center;
+
+}
+
+#galeria img{
+
+	width:100%;
+	max-width:450px;
+	max-height: 600px;
+	border-radius:0.5em;
+	border:0.2em solid #1E40AF;
+	margin:1em auto;
+
+}
+
+#galeria button{
+
+	padding:0.6em 1em;
+	background:#93C5FD;
+	border:0.15em solid #1D4ED8;
+	border-radius:0.5em;
+	font-weight:bold;
+	cursor:pointer;
+
+}
+
+#galeria button:hover{
+
+	background:#3B82F6;
+	color:white;
+
+}
+
+iframe {
+	padding:0.6em 1em;
+}
