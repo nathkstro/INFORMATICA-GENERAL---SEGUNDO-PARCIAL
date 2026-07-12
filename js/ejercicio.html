@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Repositorio de obras musicales</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+     <div id="contenedor">
+     	<header>
+     		<h1>Performance, tecnología y narración en el arte contemporáneo</h1>
+     		<p><q>“El lenguaje es un virus que viene del espacio exterior.”</q> — Laurie Anderson</p>
+     		<nav>
+     			<ul>
+     				<li><a href="index.html" target="_self">Inicio</a></li>
+     				<li><a href="galeria.html" target="_self">Galeria</a></li>
+     				<li><a href="ejercicio.html" target="#">Ejercicio</a></li>
+     			</ul>
+     		</nav>
+     	</header>
+     	<main>
+     	 <section>
+     	 	<h2>Repositorio de grabaciones digitales</h2>
+     	 	<p>Gestión del repositorio de obras musicales de Laurie Anderson.</p>
+
+     	 	<form>
+
+			<!-- Cantidad de obras -->
+			<fieldset>
+				<legend>Inicio</legend>
+				<label for="cantidadObras">Cantidad de obras</label>
+				<input type="number" name="cantidadObras" id="cantidadObras">
+
+				<button type="button" id="btnComenzar">Comenzar carga</button>
+			</fieldset>
+
+			<!-- Datos de cada obra-->
+			<fieldset>
+				<legend>Datos de la obra</legend>
+				<label for="nombreObra">Nombre</label>
+				<input type="text" name="nombreObra" id="nombreObra" disabled>
+
+				<label for="duracion">Duración (minutos)</label>
+				<input type="number" name="duracion" id="duracion" disabled>
+
+				<label for="peso">Peso del archivo (MB)</label>
+				<input type="number" name="peso" id="peso" disabled>
+
+				<button type="button" id="btnAgregar" disabled>
+					Agregar obra
+				</button>
+			</fieldset>
+
+			<!-- Datos generales -->
+			<fieldset>
+				<legend>Datos generales</legend>
+				<label for="tiempoMB">Tiempo de transferencia por MB (ms)</label>
+				<input type="number" name="tiempoMB" id="tiempoMB">
+
+				<label for="costoMB">Costo mensual por MB</label>
+				<input type="number" name="costoMB" id="costoMB">
+			</fieldset>
+
+
+			<!-- Botones -->
+			<button type="button" id="btnCalcular" disabled>
+				Calcular resultados
+			</button>
+
+			<button type="button" id="btnReiniciar" disabled>
+				Reiniciar
+			</button>
+
+			<!-- Resultado -->
+			<p id="resultado"></p>
+
+		</form>
+
+     	 </section>
+     	</main>
+     	<footer>
+     		<address>
+     			<p>Para contactarse escribir a <a href="mailto:laurie@artedigital.com">laurie@artedigital.com</a></p>
+     		</address>
+     	</footer>
+     </div>
+     <script src="js/ejercicio.js"></script> <!-- js de ejercicio -->
+</body>
+</html>
