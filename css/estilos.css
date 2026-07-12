@@ -95,6 +95,7 @@ header{
 	color: white;
 	padding:2em;
 	text-align:center;
+	border: 0.4em solid #BFDBFE;
 	border-radius:10px 10px 0 0;
 }
 
@@ -109,4 +110,45 @@ h1, h2, h3 {
 
 strong, em {
 	font-family: "Abel", sans-serif;
+}
+
+footer {
+	background: #1D4ED8;
+	color: white;
+	text-align: center;
+	padding: 0.1em;
+	border: 0.4em solid #BFDBFE;
+	border-radius: 0.5em;
+}
+
+/* Datos curiosos */
+
+.datoCurioso {
+	background-color: #DBEAFE;
+	border: 0.15em solid #1E40AF;
+	border-radius: 0.6em;
+	padding: 1em;
+	margin-top: 1.5em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+.datoCurioso p {
+	min-height: 4.5em;
+	color: #1E3A8A;
+}
+
+.datoCurioso button {
+	padding: 0.6em 1em;
+	background-color: #93C5FD;
+	border: 0.15em solid #1D4ED8;
+	border-radius: 0.5em;
+	font-weight: bold;
+	color: #1E3A8A;
+	cursor: pointer;
+}
+
+.datoCurioso button:hover {
+	background-color: #3B82F6;
+	color: white;
 }
