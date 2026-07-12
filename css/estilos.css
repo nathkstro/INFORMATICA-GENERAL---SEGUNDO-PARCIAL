@@ -152,3 +152,10 @@ footer {
 	background-color: #3B82F6;
 	color: white;
 }
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0.5em auto;
+}
