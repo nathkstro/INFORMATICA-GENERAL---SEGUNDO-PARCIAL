@@ -1,4 +1,6 @@
 body {
+	display: flex; /* Centro el contenedor */
+	justify-content: center; 
 	margin: 0;
 	background-image: url("../img/fondo.png");
 	background-position: center;
@@ -12,5 +14,99 @@ body {
 	padding: 1.5em;
 	margin: 2em 0;
 	border-radius: 0.9em;
-	border: 0.2em solid #073040;
+	border: 0.2em solid #1E3A8A;
+}
+
+/* Menú horizontal y diseño de links */
+
+nav {
+	text-align: center;
+	margin-bottom: 1.8em;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0.3em;
+}
+
+nav a {
+	background-color: #93C5FD;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	border: 0.2em solid #1D4ED8;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	background-color: #3B82F6;
+}
+
+a:link {
+	color: #1E3A8A;
+}
+
+a:visited {
+	color: #374151;
+}
+
+a:hover {
+	color: #DBEAFE;
+}
+
+a:active {
+	color: #60A5FA;
+}
+
+/* Columnas de mismo tamaño */
+
+#columnasGrandes {
+	display: flex;
+	gap: 1.5em;
+}
+
+#columnasGrandes section {
+	flex: 1;
+}
+
+/* Columnas de diferente tamaño */
+
+#columnasDiferentes {
+	display: flex;
+	gap: 1.5em;
+}
+
+.peque {
+	flex: 1;
+}
+
+.grande {
+	flex: 2;
+}
+
+header{
+	background: #1D4ED8;
+	color: white;
+	padding:2em;
+	text-align:center;
+	border-radius:10px 10px 0 0;
+}
+
+h1, h2, h3 {
+	background-color: #BFDBFE;
+	border: 0.1em solid #1E40AF;
+	font-family: "Abel", sans-serif; /* Tipografía indicada, aplico también a mis destacados */
+	text-align: center;
+	padding: 0.4em;
+	border-radius: 0.5em;
+}
+
+strong, em {
+	font-family: "Abel", sans-serif;
 }
